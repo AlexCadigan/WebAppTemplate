@@ -36,6 +36,24 @@
 		"NodeJS": true
 	},
 	"rules": {
+		// ESLint
+		"no-fallthrough": [
+			"error",
+			{
+				"commentPattern": "break\\sunecessary"
+			}
+		],
+
+		// Typescript
+		"@typescript-eslint/no-unused-vars": [
+			"error",
+			{
+				"argsIgnorePattern": "^_"
+			}
+		],
+
+		// React
+		"react/react-in-jsx-scope": "off" // Not needed in current React versions
 	},
 	"overrides": [
 		{
