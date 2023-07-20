@@ -53,7 +53,10 @@
 		],
 
 		// React
-		"react/react-in-jsx-scope": "off" // Not needed in current React versions
+		"react/react-in-jsx-scope": "off", // Not needed in current React versions
+
+		// JSDoc
+		"jsdoc/newline-after-description": ["error", "never"]
 	},
 	"overrides": [
 		{
